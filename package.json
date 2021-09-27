@@ -1,0 +1,31 @@
+{
+  "name": "webpack_exp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.42.1",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.54.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  }
+}
